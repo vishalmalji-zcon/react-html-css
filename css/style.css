@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+  color: blueviolet;
+}
+
+h1,
+h2,
+h3,
+p,
+h4,
+li {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(56, 154, 182);
+}
+
+h1 {
+  font-size: 50px;
+
+  text-transform: uppercase;
+  text-indent: 10px;
+  font-style: oblique;
+}
+
+h2 {
+  font-size: large;
+}
+
+h3 {
+  font-size: 30px;
+
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.author {
+  font-style: italic;
+  font-size: 19px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.ul-list {
+  list-style: georgian;
+}
+
+.main-haider {
+  background-color: rgb(221, 213, 213);
+}
+
+aside {
+  background-color: aliceblue;
+  border-top: 5px solid #6bc7e1;
+  border-bottom: 5px solid #6bc7e1;
+}
+
+li:first-child {
+  font-weight: bolder;
+}
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(2) {
+  color: blueviolet;
+}
+li:nth-child(odd) {
+  color: rgb(226, 43, 43);
+}
+
+article p:first-child {
+  background-color: coral;
+}
+
+article p:last-child {
+  background-color: rgb(151, 192, 27);
+}
+
+a:link {
+  color: rgb(51, 180, 209);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(51, 180, 209);
+}
+
+a:hover {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline blueviolet;
+}
+
+a:active {
+  font-style: italic;
+  background-color: bisque;
+}
