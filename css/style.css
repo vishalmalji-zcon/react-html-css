@@ -1,6 +1,22 @@
+* {
+  margin: 10px;
+}
+
 body {
   font-family: sans-serif;
   color: blueviolet;
+}
+
+.main-haider {
+  background-color: rgb(221, 213, 213);
+  padding: 5px 20px;
+  /* padding-bottom: 5px; */
+}
+
+aside {
+  background-color: aliceblue;
+  border-top: 5px solid #6bc7e1;
+  border-bottom: 5px solid #6bc7e1;
 }
 
 h1,
@@ -48,6 +64,11 @@ p {
 
 li {
   font-size: 20px;
+  padding-bottom: 7px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 .copyright {
@@ -64,16 +85,6 @@ li {
 }
 .ul-list {
   list-style: georgian;
-}
-
-.main-haider {
-  background-color: rgb(221, 213, 213);
-}
-
-aside {
-  background-color: aliceblue;
-  border-top: 5px solid #6bc7e1;
-  border-bottom: 5px solid #6bc7e1;
 }
 
 li:first-child {
