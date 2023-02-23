@@ -1,14 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Login from './components/login.component';
+import TopBar from "./components/topbar/TopBar"
 
-function App() {
-  return (
-    <div className="App">
-      <Login></Login>
-    </div>
-  );
+function App(params) {
+  return <div className="App">
+    <TopBar></TopBar>
+  </div>
 }
-
-export default App;
+export default App
